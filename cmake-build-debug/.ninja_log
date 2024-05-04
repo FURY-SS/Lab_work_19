@@ -1,0 +1,7 @@
+# ninja log v5
+2	188	7365382611087386	CMakeFiles/Lab_work_19.dir/main.c.obj	a3efbcce6d2be327
+20	188	7365382902154019	CMakeFiles/Lab_work_19.dir/algorithms/algorithms.c.obj	907d6c4d7a193db2
+2	247	7365382902764166	CMakeFiles/Lab_work_19.dir/matrix/matrix.c.obj	333f207e97e364be
+247	359	7365382903854411	Lab_work_19.exe	91cb0d39f410e72d
+3	100	7365382939902529	CMakeFiles/Lab_work_19.dir/main.c.obj	a3efbcce6d2be327
+101	189	7365382940752730	Lab_work_19.exe	91cb0d39f410e72d

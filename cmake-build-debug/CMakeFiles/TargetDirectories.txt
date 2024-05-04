@@ -1,0 +1,3 @@
+C:/Users/Vadim/CLionProjects/Lab_work_19/cmake-build-debug/CMakeFiles/Lab_work_19.dir
+C:/Users/Vadim/CLionProjects/Lab_work_19/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Vadim/CLionProjects/Lab_work_19/cmake-build-debug/CMakeFiles/rebuild_cache.dir
