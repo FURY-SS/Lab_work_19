@@ -111,7 +111,8 @@
 				7,
 				9,
 				10,
-				11
+				11,
+				12
 			]
 		}
 	],
@@ -181,6 +182,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "tasks/special_word.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tasks/leave_longest_word .h",
 			"sourceGroupIndex" : 1
 		}
 	],

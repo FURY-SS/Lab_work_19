@@ -15,4 +15,5 @@ add_executable(Lab_work_19 main.c
         string/string.h
         tasks/evaluate_expression.h
         tasks/special_word.h
+        "tasks/leave_longest_word .h"
 )
