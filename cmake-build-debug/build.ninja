@@ -67,6 +67,24 @@ build CMakeFiles/Lab_work_19.dir/algorithms/algorithms.c.obj: C_COMPILER__Lab_wo
   OBJECT_DIR = CMakeFiles\Lab_work_19.dir
   OBJECT_FILE_DIR = CMakeFiles\Lab_work_19.dir\algorithms
 
+build CMakeFiles/Lab_work_19.dir/vector/vector.c.obj: C_COMPILER__Lab_work_19_unscanned_Debug C$:/Users/Vadim/CLionProjects/Lab_work_19/vector/vector.c || cmake_object_order_depends_target_Lab_work_19
+  DEP_FILE = CMakeFiles\Lab_work_19.dir\vector\vector.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Lab_work_19.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab_work_19.dir\vector
+
+build CMakeFiles/Lab_work_19.dir/vector/vector_void.c.obj: C_COMPILER__Lab_work_19_unscanned_Debug C$:/Users/Vadim/CLionProjects/Lab_work_19/vector/vector_void.c || cmake_object_order_depends_target_Lab_work_19
+  DEP_FILE = CMakeFiles\Lab_work_19.dir\vector\vector_void.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Lab_work_19.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab_work_19.dir\vector
+
+build CMakeFiles/Lab_work_19.dir/string/string.c.obj: C_COMPILER__Lab_work_19_unscanned_Debug C$:/Users/Vadim/CLionProjects/Lab_work_19/string/string.c || cmake_object_order_depends_target_Lab_work_19
+  DEP_FILE = CMakeFiles\Lab_work_19.dir\string\string.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Lab_work_19.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab_work_19.dir\string
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Lab_work_19
@@ -75,7 +93,7 @@ build CMakeFiles/Lab_work_19.dir/algorithms/algorithms.c.obj: C_COMPILER__Lab_wo
 #############################################
 # Link the executable Lab_work_19.exe
 
-build Lab_work_19.exe: C_EXECUTABLE_LINKER__Lab_work_19_Debug CMakeFiles/Lab_work_19.dir/main.c.obj CMakeFiles/Lab_work_19.dir/matrix/matrix.c.obj CMakeFiles/Lab_work_19.dir/algorithms/algorithms.c.obj
+build Lab_work_19.exe: C_EXECUTABLE_LINKER__Lab_work_19_Debug CMakeFiles/Lab_work_19.dir/main.c.obj CMakeFiles/Lab_work_19.dir/matrix/matrix.c.obj CMakeFiles/Lab_work_19.dir/algorithms/algorithms.c.obj CMakeFiles/Lab_work_19.dir/vector/vector.c.obj CMakeFiles/Lab_work_19.dir/vector/vector_void.c.obj CMakeFiles/Lab_work_19.dir/string/string.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Lab_work_19.dir
