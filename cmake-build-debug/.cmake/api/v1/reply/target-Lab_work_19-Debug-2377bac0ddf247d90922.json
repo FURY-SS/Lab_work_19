@@ -110,7 +110,8 @@
 				5,
 				7,
 				9,
-				10
+				10,
+				11
 			]
 		}
 	],
@@ -175,6 +176,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "tasks/evaluate_expression.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tasks/special_word.h",
 			"sourceGroupIndex" : 1
 		}
 	],

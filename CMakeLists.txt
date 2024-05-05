@@ -13,4 +13,6 @@ add_executable(Lab_work_19 main.c
         vector/vector_void.h
         string/string.c
         string/string.h
-        tasks/evaluate_expression.h)
+        tasks/evaluate_expression.h
+        tasks/special_word.h
+)
