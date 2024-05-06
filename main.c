@@ -7,6 +7,7 @@
 #include "tasks/rearrange_numbers.h"
 #include "tasks/transpose_non_symmetric_matrix.h"
 #include "tasks/get_best_team.h"
+#include "tasks/update_product.h"
 
 int main() {
     // 1
@@ -54,6 +55,10 @@ int main() {
     test_get_best_team();
     printf("Exercise 9 - OK\n");
     // 10
-
+    printf("Exercise 10\n");
+    generate_product_and_order("C:\\Users\\Vadim\\CLionProjects\\lab_work_19\\tasks_tests\\task_10_test_01.txt","C:\\Users\\Vadim\\CLionProjects\\lab_work_19\\tasks_tests\\task_10_test_02.txt");
+    print_product_and_order("C:\\Users\\Vadim\\CLionProjects\\lab_work_19\\tasks_tests\\task_10_test_01.txt", "C:\\Users\\Vadim\\CLionProjects\\lab_work_19\\tasks_tests\\task_10_test_02.txt");
+    test_update_product();
+    printf("Exercise 10 - OK\n");
 }
 

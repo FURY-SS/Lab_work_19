@@ -21,4 +21,5 @@ add_executable(Lab_work_19 main.c
         tasks/transpose_non_symmetric_matrix.h
         matrix/algorithms/algorithms.h
         tasks/get_best_team.h
+        tasks/update_product.h
 )
