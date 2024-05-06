@@ -17,4 +17,5 @@ add_executable(Lab_work_19 main.c
         tasks/special_word.h
         "tasks/leave_longest_word .h"
         tasks/remove_polynomial.h
+        tasks/rearrange_numbers.h
 )
