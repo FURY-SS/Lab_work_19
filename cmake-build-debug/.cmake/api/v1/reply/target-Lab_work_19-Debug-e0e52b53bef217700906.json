@@ -112,7 +112,8 @@
 				9,
 				10,
 				11,
-				12
+				12,
+				13
 			]
 		}
 	],
@@ -187,6 +188,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "tasks/leave_longest_word .h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tasks/remove_polynomial.h",
 			"sourceGroupIndex" : 1
 		}
 	],
