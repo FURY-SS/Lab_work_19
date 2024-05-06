@@ -5,7 +5,7 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(Lab_work_19 main.c
         matrix/matrix.c
-        algorithms/algorithms.c
+        matrix/algorithms/algorithms.c
         tasks/convert_float_num.h
         vector/vector.c
         vector/vector.h
@@ -18,4 +18,6 @@ add_executable(Lab_work_19 main.c
         "tasks/leave_longest_word .h"
         tasks/remove_polynomial.h
         tasks/rearrange_numbers.h
+        tasks/transpose_non_symmetric_matrix.h
+        matrix/algorithms/algorithms.h
 )

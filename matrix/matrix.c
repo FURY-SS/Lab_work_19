@@ -4,7 +4,7 @@
 #include <malloc.h>
 #include <stdlib.h>
 #include "matrix.h"
-#include "../algorithms/algorithms.h"
+#include "../matrix//algorithms/algorithms.h"
 
 matrix get_mem_matrix(int n_rows, int n_cols) {
     int **values = (int **) malloc(sizeof(int *) * n_rows);

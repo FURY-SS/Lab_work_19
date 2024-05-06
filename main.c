@@ -5,6 +5,7 @@
 #include "tasks/leave_longest_word .h"
 #include "tasks/remove_polynomial.h"
 #include "tasks/rearrange_numbers.h"
+#include "tasks/transpose_non_symmetric_matrix.h"
 
 int main() {
     // 1
@@ -40,5 +41,12 @@ int main() {
     test_rearrange_numbers();
     printf("Exercise 7 - OK\n");
     // 8
+    printf("Exercise 8\n");
+    generate_non_symmetric_matrix("C:\\Users\\Vadim\\CLionProjects\\lab_work_19\\tasks_tests\\task_8_test_0.txt");
+    print_bin_file_matrix("C:\\Users\\Vadim\\CLionProjects\\lab_work_19\\tasks_tests\\task_8_test_0.txt");
+    test_transpose_non_symmetric_matrix();
+    printf("Exercise 8 - OK\n");
+    // 9
 
 }
+

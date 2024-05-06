@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdbool.h>
-#include "../matrix/matrix.h"
+#include "../matrix.h"
 
 void swap(int *a, int *b) {
     int temp = *a;
