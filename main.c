@@ -6,6 +6,7 @@
 #include "tasks/remove_polynomial.h"
 #include "tasks/rearrange_numbers.h"
 #include "tasks/transpose_non_symmetric_matrix.h"
+#include "tasks/get_best_team.h"
 
 int main() {
     // 1
@@ -47,6 +48,12 @@ int main() {
     test_transpose_non_symmetric_matrix();
     printf("Exercise 8 - OK\n");
     // 9
+    printf("Exercise 9\n");
+    generate_team("C:\\Users\\Vadim\\CLionProjects\\lab_work_19\\tasks_tests\\task_9_test_0.txt", 5);
+    print_team("C:\\Users\\Vadim\\CLionProjects\\lab_work_19\\tasks_tests\\task_9_test_0.txt");
+    test_get_best_team();
+    printf("Exercise 9 - OK\n");
+    // 10
 
 }
 
