@@ -7,6 +7,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include "../matrix/algorithms/algorithms.h"
+#include "../matrix/matrix.h"
+#include <assert.h>
 
 void generate_non_symmetric_matrix(const char* filename) {
     srand(time(NULL));

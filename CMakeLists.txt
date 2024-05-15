@@ -22,4 +22,5 @@ add_executable(Lab_work_19 main.c
         matrix/algorithms/algorithms.h
         tasks/get_best_team.h
         tasks/update_product.h
+        tasks_20_lab/matrix_transformation.h
 )
