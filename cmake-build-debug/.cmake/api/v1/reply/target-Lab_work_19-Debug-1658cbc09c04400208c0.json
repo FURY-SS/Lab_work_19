@@ -119,7 +119,8 @@
 				16,
 				17,
 				18,
-				19
+				19,
+				20
 			]
 		}
 	],
@@ -229,6 +230,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "tasks_20_lab/matrix_transformation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tasks_20_lab/game_life.h",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -23,4 +23,5 @@ add_executable(Lab_work_19 main.c
         tasks/get_best_team.h
         tasks/update_product.h
         tasks_20_lab/matrix_transformation.h
+        tasks_20_lab/game_life.h
 )
