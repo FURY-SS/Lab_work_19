@@ -5,19 +5,17 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <assert.h>
-#include "../matrix/matrix.h"
 
-#define m 4
-#define n 3
+#define c 4
+#define r 3
 
-int count_Live_neighbors(int board[m][n], int row, int col) {
+int count_Live_neighbors(int board[c][r], int row, int col) {
     int count = 0;
     int i, j;
 
     for (i = row - 1; i <= row + 1; i++) {
         for (j = col - 1; j <= col + 1; j++) {
-            if (i >= 0 && i < m && j >= 0 && j < n && !(i == row && j == col)) {
+            if (i >= 0 && i < c && j >= 0 && j < r && !(i == row && j == col)) {
                 count += board[i][j];
             }
         }
@@ -26,12 +24,12 @@ int count_Live_neighbors(int board[m][n], int row, int col) {
     return count;
 }
 
-void game_life(int board[m][n]) {
-    int nextBoard[m][n];
+void game_life(int board[c][r]) {
+    int nextBoard[c][r];
     int i, j;
 
-    for (i = 0; i < m; i++) {
-        for (j = 0; j < n; j++) {
+    for (i = 0; i < c; i++) {
+        for (j = 0; j < r; j++) {
             int liveNeighbors = count_Live_neighbors(board, i, j);
 
             if (board[i][j] == 1) {
@@ -50,30 +48,30 @@ void game_life(int board[m][n]) {
         }
     }
 
-    for (i = 0; i < m; i++) {
-        for (j = 0; j < n; j++) {
+    for (i = 0; i < c; i++) {
+        for (j = 0; j < r; j++) {
             board[i][j] = nextBoard[i][j];
         }
     }
 }
 
 void test_game_life() {
-    int board[m][n] = {{0, 1, 0},
+    int board[c][r] = {{0, 1, 0},
                        {0, 0, 1},
                        {1, 1, 1},
                        {0, 0, 0}};
 
     game_life(board);
 
-    int check[m][n] = {{0, 0, 0},
+    int check[c][r] = {{0, 0, 0},
                        {1, 0, 1},
                        {0, 1, 1},
                        {0, 1, 0}};
 
-    for (int i = 0; i < m; i++) {
-        for (int j = 0; j < n; j++) {
+    for (int i = 0; i < c; i++) {
+        for (int j = 0; j < r; j++) {
             if (board[i][j] != check[i][j]) {
-                printf("Matrices are different");
+                printf("Matrices are different\n");
                 break;
             }
         }

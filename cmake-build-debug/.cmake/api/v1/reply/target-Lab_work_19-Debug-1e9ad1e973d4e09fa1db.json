@@ -120,7 +120,8 @@
 				17,
 				18,
 				19,
-				20
+				20,
+				21
 			]
 		}
 	],
@@ -235,6 +236,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "tasks_20_lab/game_life.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tasks_20_lab/find_median.h",
 			"sourceGroupIndex" : 1
 		}
 	],
