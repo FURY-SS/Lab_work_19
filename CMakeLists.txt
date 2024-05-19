@@ -28,4 +28,6 @@ add_executable(Lab_work_19 main.c
         tasks_20_lab/get_domains.h
         tasks_20_lab/get_submatrix.h
         tasks_20_lab/generate_num.h
+        tasks_20_lab/bin_tree.h
+        tasks_20_lab/rearrange_string.h
 )

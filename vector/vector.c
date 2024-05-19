@@ -59,6 +59,10 @@ bool is_full(vector *v) {
     return v->size == v->capacity;
 }
 
+int get_vector_value_(vector v, size_t i) {
+    return v.data[i];
+}
+
 int get_vector_value(vector *v, size_t i) {
     if (i >= v->size) {
         fprintf(stderr, "Index out of bounds\n");

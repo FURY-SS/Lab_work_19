@@ -36,6 +36,9 @@ bool is_empty(vector *v);
 // проверки на то, является ли вектор полным.
 bool is_full(vector *v);
 
+//
+int get_vector_value_(vector v, size_t i);
+
 // возвращает i-ый элемент вектора v.
 int get_vector_value(vector *v, size_t i);
 

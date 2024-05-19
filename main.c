@@ -4,6 +4,8 @@
 #include "tasks_20_lab/get_domains.h"
 #include "tasks_20_lab/get_submatrix.h"
 #include "tasks_20_lab/generate_num.h"
+#include "tasks_20_lab/bin_tree.h"
+#include "tasks_20_lab/rearrange_string.h"
 
 int main() {
     // 1
@@ -18,4 +20,8 @@ int main() {
     test_num_submatrices();
     // 6
     test_generate_nums();
+    // 7
+    test_generate_tree();
+    // 8
+    test_rearrange_string();
 }
