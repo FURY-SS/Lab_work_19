@@ -2,6 +2,8 @@
 #include "tasks_20_lab/game_life.h"
 #include "tasks_20_lab/find_median.h"
 #include "tasks_20_lab/get_domains.h"
+#include "tasks_20_lab/get_submatrix.h"
+#include "tasks_20_lab/generate_num.h"
 
 int main() {
     // 1
@@ -12,4 +14,8 @@ int main() {
     test_median_filter();
     // 4
     test_get_domains();
+    // 5
+    test_num_submatrices();
+    // 6
+    test_generate_nums();
 }

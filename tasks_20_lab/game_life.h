@@ -6,8 +6,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define c 4
-#define r 3
+int c = 4;
+int r = 3;
 
 int count_Live_neighbors(int board[c][r], int row, int col) {
     int count = 0;
@@ -56,14 +56,14 @@ void game_life(int board[c][r]) {
 }
 
 void test_game_life() {
-    int board[c][r] = {{0, 1, 0},
+    int board[4][3] = {{0, 1, 0},
                        {0, 0, 1},
                        {1, 1, 1},
                        {0, 0, 0}};
 
     game_life(board);
 
-    int check[c][r] = {{0, 0, 0},
+    int check[4][3] = {{0, 0, 0},
                        {1, 0, 1},
                        {0, 1, 1},
                        {0, 1, 0}};
