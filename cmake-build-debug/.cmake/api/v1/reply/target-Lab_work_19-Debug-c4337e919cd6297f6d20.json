@@ -121,7 +121,8 @@
 				18,
 				19,
 				20,
-				21
+				21,
+				22
 			]
 		}
 	],
@@ -241,6 +242,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "tasks_20_lab/find_median.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tasks_20_lab/get_domains.h",
 			"sourceGroupIndex" : 1
 		}
 	],
