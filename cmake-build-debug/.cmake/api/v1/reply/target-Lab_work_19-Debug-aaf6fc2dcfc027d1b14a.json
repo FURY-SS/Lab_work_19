@@ -126,7 +126,10 @@
 				23,
 				24,
 				25,
-				26
+				26,
+				27,
+				28,
+				29
 			]
 		}
 	],
@@ -271,6 +274,21 @@
 		{
 			"backtrace" : 1,
 			"path" : "tasks_20_lab/rearrange_string.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tasks_20_lab/filter_num.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tasks_tests_20_lab/tests.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "tasks_20_lab/auto_completion.h",
 			"sourceGroupIndex" : 1
 		}
 	],

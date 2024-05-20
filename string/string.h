@@ -82,6 +82,9 @@ bool get_word(char* begin_search, word_descriptor* word);
 bool get_word_without_space(char* begin_search, word_descriptor* word);
 
 //
+bool is_sub_word(const word_descriptor word1, const word_descriptor word2);
+
+//
 bool get_word_reverse(char* r_begin, char* r_end, word_descriptor* word);
 
 //

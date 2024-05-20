@@ -1,13 +1,13 @@
 # ninja log v5
-3	234	7378222830456148	CMakeFiles/Lab_work_19.dir/main.c.obj	a3efbcce6d2be327
+3	187	7379019165838968	CMakeFiles/Lab_work_19.dir/main.c.obj	a3efbcce6d2be327
 20	188	7365382902154019	CMakeFiles/Lab_work_19.dir/algorithms/algorithms.c.obj	907d6c4d7a193db2
 21	197	7365964516035725	CMakeFiles/Lab_work_19.dir/string/string.c.obj	e3bbba7cb60959a9
 4	265	7366936100206729	CMakeFiles/Lab_work_19.dir/matrix/matrix.c.obj	333f207e97e364be
 24	212	7365960407570341	CMakeFiles/Lab_work_19.dir/vector/vector_void.c.obj	a3490097419fcac6
-234	365	7378222831726435	Lab_work_19.exe	70494fc53142e88d
-3	216	7365960407600369	CMakeFiles/Lab_work_19.dir/vector/vector.c.obj	8d34b81b67e40978
-8	102	7366934554867175	CMakeFiles/Lab_work_19.dir/matrix/algorithms/algorithms.c.obj	c826236b353e119a
-1	168	7378244934386549	build.ninja	6a57e07095a656d5
+188	308	7379019167019229	Lab_work_19.exe	70494fc53142e88d
 24	204	7378247389952970	CMakeFiles/Lab_work_19.dir/vector/vector.c.obj	8d34b81b67e40978
-4	260	7378247390523095	CMakeFiles/Lab_work_19.dir/main.c.obj	a3efbcce6d2be327
-260	415	7378247392013431	Lab_work_19.exe	70494fc53142e88d
+8	102	7366934554867175	CMakeFiles/Lab_work_19.dir/matrix/algorithms/algorithms.c.obj	c826236b353e119a
+1	168	7379026353026908	build.ninja	6a57e07095a656d5
+21	210	7379031432234262	CMakeFiles/Lab_work_19.dir/string/string.c.obj	e3bbba7cb60959a9
+2	267	7379031432824391	CMakeFiles/Lab_work_19.dir/main.c.obj	a3efbcce6d2be327
+268	424	7379031434334725	Lab_work_19.exe	70494fc53142e88d

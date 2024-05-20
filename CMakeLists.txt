@@ -30,4 +30,7 @@ add_executable(Lab_work_19 main.c
         tasks_20_lab/generate_num.h
         tasks_20_lab/bin_tree.h
         tasks_20_lab/rearrange_string.h
+        tasks_20_lab/filter_num.h
+        tasks_tests_20_lab/tests.h
+        tasks_20_lab/auto_completion.h
 )

@@ -6,7 +6,7 @@
 #include "tasks_20_lab/generate_num.h"
 #include "tasks_20_lab/bin_tree.h"
 #include "tasks_20_lab/rearrange_string.h"
-#include "tasks_20_lab/auto_completion.h"
+
 
 int main() {
     // 1
